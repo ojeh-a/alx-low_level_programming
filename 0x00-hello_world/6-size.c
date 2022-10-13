@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - entry, print to output
+ * main - entry, print sizes of data types
  *
  * Return: 0(successfull)
  */
