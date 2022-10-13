@@ -2,7 +2,7 @@
 /**
  * main - print to terminal
  *
- * return: always 0
+ * return: return 0
  */
 
 int main(void)
