@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - entry, print sizes of data types
  *
