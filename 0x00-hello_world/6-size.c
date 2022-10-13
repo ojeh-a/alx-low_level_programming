@@ -3,7 +3,7 @@
 /**
  * main - entry, print to output
  *
- * Return: 0(successful)
+ * Return: 0(success) 
  */
 int main(void)
 	char a;
