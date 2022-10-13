@@ -6,13 +6,14 @@
  * Return: 0(success) 
  */
 int main(void)
+{
 	char a;
 	short b;
 	int c;
 	long d;
 	long long e;
 	float f;
-{
+
 	printf("size of char: %d byte(s)\n", sizeof(a));
 	printf("size of short: %d byte(s)\n", sizeof(b));
 	printf("size of int: %d byte(s)\n", sizeof(c));
