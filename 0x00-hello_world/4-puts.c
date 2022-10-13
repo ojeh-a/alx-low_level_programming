@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - entry
+ *
+ * return - always 0
+ */
 
 int main(void)
 
