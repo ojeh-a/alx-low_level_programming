@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  * main - this print the size of type
- *   * in different computer
- *    *
- *     * Return: return 0
- */
+ * main - prints the size of each type
+ *
+ * Return: 0(successful) 
 
 int main(void)
 {
