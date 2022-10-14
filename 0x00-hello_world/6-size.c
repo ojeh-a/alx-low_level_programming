@@ -5,7 +5,7 @@
  *   * in different computer
  *    *
  *     * Return: return 0
- *      */
+ */
 
 int main(void)
 {
