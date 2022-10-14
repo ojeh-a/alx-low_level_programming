@@ -3,7 +3,8 @@
 /**
  * main - prints the size of each type
  *
- * Return: 0(successful) 
+ * Return: 0(successful)
+ */ 
 
 int main(void)
 {
