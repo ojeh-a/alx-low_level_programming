@@ -8,11 +8,10 @@
 int main(void)
 {
 	char alpha = 'a';
-	char alphaz = 'z';
 	char que = 'q';
 	char era = 'e';
 	
-	for (alpha <= alphaz);
+	for (alpha <= 'z');
 	{
 		putchar(alpha);
 		alpha++;
