@@ -12,7 +12,7 @@ int main(void)
 	char que = 'q';
 	char era = 'e';
 	
-	for (alpha <= alphaz;)
+	for (alpha <= alphaz);
 	{
 		putchar(alpha);
 		alpha++;
