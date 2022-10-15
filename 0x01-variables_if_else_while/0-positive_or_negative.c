@@ -3,8 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for funtion goes there
- */
+/* betty style doc for funtion goes there */
 /**
  * main - print value of n
  *
