@@ -12,13 +12,11 @@ int main(void)
 	char que = 'q';
 	char era = 'e';
 	
-	for (alpha <= alphaz);
-	{
-	while (alpha != era || que);
+	for (alpha <= alphaz;)
 	{
 		putchar(alpha);
 		alpha++;
-	}
+		while (alpha != era || que);
 	}
 	return (0);
 }
