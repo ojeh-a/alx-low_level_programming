@@ -12,12 +12,12 @@ int main(void)
 	char ALPHA_A = 'A';
 	char ALPHA_Z = 'Z';
 
-	while (; letter_a <= letter_z; letter_a++)
+	for (; letter_a <= letter_z; letter_a++)
 	{
 		putchar(letter_a);
 	}
 
-	while (; ALPHA_A <= ALPHA_Z; ALPHA_A++)
+	for (; ALPHA_A <= ALPHA_Z; ALPHA_A++)
 	{
 		putchar(ALPHA_A);
 	}
