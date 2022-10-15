@@ -9,12 +9,12 @@ int main(void)
 {
 	char alpha = 'a';
 	char alphaz = 'z';
-	char q = 'q';
-	char e = 'e';
+	char que = 'q';
+	char era = 'e';
 
-	for ( alpha <= alphaz && != e, q; alpha++)
+	for ( alpha <= alphaz && alpha != era, que; alpha++;)
 	{
 		putchar(alpha);
 	}
-	return (0)
+	return (0);
 }
