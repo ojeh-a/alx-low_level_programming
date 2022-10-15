@@ -27,7 +27,7 @@ int main(void)
 				else 
 				 /* else print this statement */
 
-					printf("%d is negative\n, n");
+					printf("%d is negative\n", n);
 				
 					return (0);
 }
