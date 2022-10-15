@@ -11,7 +11,7 @@ int main(void)
 	char que = 'q';
 	char era = 'e';
 	
-	if (('a' <= 'z');)
+	if (('a' <= 'z')
 	{
 		putchar(alpha);
 		alpha++;
