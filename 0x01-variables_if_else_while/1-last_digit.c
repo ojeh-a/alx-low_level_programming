@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /*
- * main - print last digit
+ * main - print last digit of n
  *
  * Return: 0(end)
  */
