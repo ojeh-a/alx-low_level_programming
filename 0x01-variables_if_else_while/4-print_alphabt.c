@@ -12,10 +12,10 @@ int main(void)
 	char que = 'q';
 	char era = 'e';
 
-	while ( alpha <= alphaz && alpha != (era || que));
+	while (alpha <= alphaz && alpha != (era || que));
 	{
 		putchar(alpha);
-		alpha++
+		alpha++;
 	}
 	return (0);
 }
