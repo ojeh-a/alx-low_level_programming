@@ -12,8 +12,8 @@ int main(void)
 	char que = 'q';
 	char era = 'e';
 
-	alpha <= alphaz;
-	while alpha != (era || que);
+	(alpha <= alphaz);
+	while (alpha != era || que);
 	{
 		putchar(alpha);
 		alpha++;
