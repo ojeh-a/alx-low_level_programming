@@ -8,10 +8,8 @@
 int main(void)
 {
 	int alpha = 'a';
-	int que = 'q';
-	int era = 'e';
 	
-	if (alpha <= 'z'; alpha != que || era; alpha++)
+	if (alpha <= 'z'; alpha != 'e' || 'q'; alpha++)
 	{
 		putchar(alpha);
 	}
