@@ -8,9 +8,11 @@
 
 int main(void)
 {
-	n = int;
+	int n;
 
-	while (n <= '0';)
-		printf("%c\n");
+	while (n >= '0')
+	{
+		printf("%c\n", n);
+	}
 	return (0);
 }
