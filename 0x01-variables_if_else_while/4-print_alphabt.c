@@ -7,15 +7,14 @@
  */
 int main(void)
 {
-	char alpha = 'a';
-	char que = 'q';
-	char era = 'e';
+	int alpha = 'a';
+	int que = 'q';
+	int era = 'e';
 	
-	if (('a' <= 'z')
+	if (alpha <= 'z'; alpha != que || era; alpha++)
 	{
 		putchar(alpha);
-		alpha++;
-		while (alpha != era || que);
 	}
+	putchar('\n');
 	return (0);
 }
