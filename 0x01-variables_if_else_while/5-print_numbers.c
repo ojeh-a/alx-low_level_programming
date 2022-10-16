@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int = n;
+	n = int;
 
 	while (n <= '0';)
 		printf("%c\n");
