@@ -9,7 +9,7 @@ int main(void)
 {
 	int alpha = 'a';
 	
-	if (alpha <= 'z'; alpha != 'e' || 'q'; alpha++)
+	if (alpha <= 'z' && alpha != 'e' || 'q'; alpha++)
 	{
 		putchar(alpha);
 	}
