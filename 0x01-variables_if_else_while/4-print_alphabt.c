@@ -8,7 +8,7 @@
 int main(void)
 {
 	int alpha;
-	
+
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (alpha != 'q' && alpha != 'e')
