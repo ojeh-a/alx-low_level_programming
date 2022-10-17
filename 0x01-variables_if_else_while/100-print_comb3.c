@@ -28,7 +28,7 @@ int main(void)
 				}
 				b++;
 			}
-			a = b + 1;
+			b = a + 1;
 		}
 		a++;
 	}
