@@ -19,8 +19,8 @@ int main(void)
 		{
 			while (a != b)
 			{
-				putchar('0' + a);
-				putchar('0' + b);
+				putchar(48 + a);
+				putchar(48 + b);
 				if (a <= '8')
 				{
 				putchar(',');
