@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-  main - print all possible cobinations of two digits
-
-Return: return 0
+*  main - print all possible cobinations of two digits
+*
+* Return: return 0
 */
 
 int main(void)
@@ -19,14 +19,14 @@ int main(void)
 		{
 			putchar(48 + a);
 			putchar(48 + b);
-			if (b < 9 - 0)
+			if (b <= 9 - 0)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			a++;
+			b++;
 		}
-		b++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
