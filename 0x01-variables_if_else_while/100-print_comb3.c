@@ -17,14 +17,17 @@ int main(void)
 	{
 		while (b <= 9)
 		{
-			putchar('0' + a);
-			putchar('0' + b);
-			if (a != b; a <= '8';)
+			while (a != b)
 			{
+				putchar('0' + a);
+				putchar('0' + b);
+				if (a != b; a <= '8';)
+				{
 				putchar(',');
 				putchar(' ');
-			}
-			b++;
+				}
+				b++;
+			} a, b;
 		}
 		a++;
 	}
