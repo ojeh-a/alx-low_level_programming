@@ -10,18 +10,18 @@ int main(void)
 {
 	int a;
 	int b;
-	a = '0';
-	b = '1';
+	a = 0;
+	b = 1;
 
-	while (a <= '8')
+	while (a <= 8)
 	{
-		while (b <= '9')
+		while (b <= 9)
 		{
 			while (a != b)
 			{
 				putchar(48 + a);
 				putchar(48 + b);
-				if (a <= '8')
+				if (a <= 8)
 				{
 				putchar(',');
 				putchar(' ');
