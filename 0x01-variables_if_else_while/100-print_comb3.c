@@ -13,15 +13,15 @@ int main(void)
 	a = 0;
 	b = 1;
 
-	while (a <= 8)
+	while (a <= 56)
 	{
-		while (b <= 9)
+		while (b <= 57)
 		{
 			while (a != b)
 			{
 				putchar(a);
 				putchar(b);
-				if (a <= 8)
+				if (a <= 56)
 				{
 				putchar(',');
 				putchar(' ');
