@@ -13,9 +13,9 @@ int main(void)
 	a = 48;
 	b = 49;
 
-	while (a <= 56)
+	while (a = 48; a <= 56)
 	{
-		while (b <= 57)
+		while (b = 49, b <= 57)
 		{
 			while (a != b)
 			{
