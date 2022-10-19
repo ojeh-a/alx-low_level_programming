@@ -6,14 +6,14 @@
   * Return: Always n
   */
 
-int _abs(int);
+int _abs(int n);
 {
 	int n;
 
-	for (n < 0)
+	if (n < 0)
 	{
 
 	return (n * -1);
 	}
-	return (n)
+	return (n);
 }
