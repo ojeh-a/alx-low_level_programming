@@ -13,7 +13,7 @@ int main(void)
 	  *
 	  * Return: 0
 	  */
-	print_alphabet(void)
+	void print_alphabet(void)
 	{
 		char alpha;
 
