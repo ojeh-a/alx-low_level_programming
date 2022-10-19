@@ -6,7 +6,7 @@
   * Return: Always n
   */
 
-int _abs(int n);
+int _abs(int n)
 {
 	int n;
 
