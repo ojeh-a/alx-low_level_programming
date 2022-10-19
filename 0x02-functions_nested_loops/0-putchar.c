@@ -10,7 +10,6 @@
 
 int main(void)
 {
-	int;
 
 	_putchar('_');
 	_putchar('p');
