@@ -1,1 +1,2 @@
-#include <unistd.h> /bin /boot /dev /etc /home /init /lib /lib32 /lib64 /libx32 /media /mnt /opt /proc /root /run /sbin /snap /srv /sys /tmp /usr /var 0-putchar.c README.md _putchar.c main.h _putchar - writes the character c to stdout 0-putchar.c README.md _putchar.c main.h @c: The character to print 0-putchar.c README.md _putchar.c main.h 0-putchar.c README.md _putchar.c main.h Return: On success 1. 0-putchar.c README.md _putchar.c main.h On error, -1 is returned, and errno is set appropriately. */ int _putchar(char c) { return (write(1, &c, 1)); }
+#include <stdio.h>
+#include <unistd.h>
