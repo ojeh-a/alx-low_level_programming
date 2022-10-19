@@ -1,27 +1,17 @@
 #include "main.h"
 
 /**
-  * main - entry point
-  *
-  * Return: Always 0
-  */
-
-int main(void)
+ *print_alphabet - prints alphabets in lowercase
+ *
+ * Return: 0
+ */
+void print_alphabet(void)
 {
-	/**
-	  *print_alphabet - prints alphabets in lowercase
-	  *
-	  * Return: 0
-	  */
-	void print_alphabet(void)
-	{
-		char alpha;
+	char alpha;
 
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
-		{
-			_putchar(alpha);
-		}
-		_putchar('\n');
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		_putchar(alpha);
 	}
-	return (0);
+		_putchar('\n');
 }
