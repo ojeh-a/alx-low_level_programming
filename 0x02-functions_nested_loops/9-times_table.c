@@ -23,11 +23,11 @@ void times_table(void)
 			reslt = n * m;
 			if (reslt <= 9)
 			{
-				_putchar(' ')
+				_putchar(' ');
 			}
 			else
 				_putchar((reslt / 10) + 48);
-			_putchar((product % 10) + 48);
+			_putchar((reslt % 10) + 48);
 		}
 		_putchar ('\n');
 	}
