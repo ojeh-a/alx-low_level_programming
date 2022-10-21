@@ -30,7 +30,6 @@ int main(void)
 /**
  * while (i < 10): loop will be endless becaues theres no increment
  */
-
 				        while (i < 10)
 
 						        {
