@@ -27,8 +27,11 @@ int main(void)
 			        i = 0;
 
 
+/**
+ * while (i < 10): loop will be endless becaues theres no increment
+ */
 
-				        while (i < 10) /* loop would be endless without increment*/
+				        while (i < 10)
 
 						        {
 
