@@ -19,7 +19,7 @@ void print_diagonal(int n)
 	while (column < n)
 	{
 		row = 0;
-		while (row < n)
+		while (row <= column)
 		{
 			if (row == column)
 			{
