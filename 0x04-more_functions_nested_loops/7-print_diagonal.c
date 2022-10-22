@@ -13,10 +13,10 @@ void print_diagonal(int n)
 	int column, row;
 
 	column = 0;
-	while (column <= n)
+	while (column < n)
 	{
 		row = 0;
-		while (row <= n)
+		while (row < n)
 		{
 			row++;
 			if (row == column)
