@@ -12,13 +12,15 @@ void print_diagonal(int n)
 {
 	int column, row;
 
+	if (n <= 0)
+		_putchar('\n');
+
 	column = 0;
 	while (column < n)
 	{
 		row = 0;
 		while (row < n)
 		{
-			row++;
 			if (row == column)
 			{
 				_putchar('\\');
@@ -27,6 +29,7 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 			}
+			row++;
 		}
 		column++;
 		_putchar('\n');
