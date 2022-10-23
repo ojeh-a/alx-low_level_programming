@@ -8,28 +8,18 @@
 
 int main(void)
 {
-	int a=48;
-	int b=49;
+	int a;
+	int b;
 
-	while (a = 48, a <= 56)
+	for (a = '0'; a < '9'; a++)
 	{
-		while (b = 49, b <= 57)
-		{
-			while (a != b)
+		for (b = '1'; b <= '9'; b++)
+			if (a < b)
 			{
 				putchar(a);
 				putchar(b);
-				if (a <= 56)
-				{
 				putchar(',');
 				putchar(' ');
-				}
-				b++;
 			}
-			b = a + 1;
-		}
-		a++;
 	}
-	putchar('\n');
-	return (0);
 }
