@@ -20,7 +20,8 @@ char *cap_string(char *p)
 			p[0] = p[0] - 32;
 		}
 		for (j = 0; delimeters[j] != '\0'; j++)
-			if (p[i] == delimeters[j] && p[i + 1] >= 97 && p[i + 1] <= 122) p[i + 1] = p[i + 1] - 32;
+			if (p[i] == delimeters[j] && p[i + 1] >= 97 && p[i + 1] <= 122)
+				p[i + 1] = p[i + 1] - 32;
 	}
 	return (p);
 }
