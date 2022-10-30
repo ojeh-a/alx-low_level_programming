@@ -7,7 +7,7 @@
   */
 int main(void)
 {
-	int a, b, c, d;
+	int a, b, c, d, x, y;
 
 		for (a = '0'; a <= '9'; a++)
 		{
@@ -17,7 +17,10 @@ int main(void)
 				{
 					for (d = '0'; d <= '9'; d++)
 					{
-						if (a + b < c + d)
+						x = (a * 10) + b;
+						y = (c * 10) + b;
+
+						if (x < y)
 						{
 							putchar(a);
 							putchar(b);
