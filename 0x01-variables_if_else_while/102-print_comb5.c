@@ -18,7 +18,7 @@ int main(void)
 					for (d = '0'; d <= '9'; d++)
 					{
 						x = (a * 10) + b;
-						y = (c * 10) + b;
+						y = (c * 10) + d;
 
 						if (x < y)
 						{
