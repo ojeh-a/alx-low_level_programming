@@ -8,7 +8,7 @@
  *
  * Return: 1 or -1
  */
-int _putchar(char c)
+void _putchar(char c)
 {
-	return (write(1, &c, 1));
+	write(1, &c, 1);
 }
