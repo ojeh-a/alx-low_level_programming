@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-  *
   *_pow_recursion - returns the value of x^y
   *
   *@x: integer
