@@ -8,10 +8,27 @@
   */
 int _atoi(char *s)
 {
-	const char *str = "12345";
-	int num = atoi(str);
+	int result = 0;
+	int sign = 1;
+	int i = 0;
 
-	printf("The converted number is: %d\n", num);
-	return (0);
+	while (s[i] == ' ' || s[i] == '\t')
+	{
+		i++;
+	}
+	if (s[i] == '-')
+	{
+		sign = -1;
+		i++;
+	}
+	else if (s[i] == '+')
+	{
+		i++;
+	}
+	while (s[i] >= '0' && s[i] <= '9')
+	{
+		result = result * 10 + (s[i] - '0');
+	}
+	return (result *  sign);
 }
 
