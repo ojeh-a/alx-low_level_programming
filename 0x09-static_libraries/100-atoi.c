@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 #include "main.h"
 /**
   * _atoi - converts string to digit.
@@ -29,6 +28,6 @@ int _atoi(char *s)
 	{
 		reslt = reslt * 10 + (s[i] - '0');
 	}
-	return (reslt *  sign);
+	return (reslt * sign);
 }
 
