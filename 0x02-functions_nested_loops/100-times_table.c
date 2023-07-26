@@ -29,7 +29,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 			}
-			else if(mul > 9 && mul < 100)
+			else if (mul > 9 && mul < 100)
 			{
 				_putchar(' ');
 				_putchar((mul / 10) + 48);
@@ -44,5 +44,4 @@ void print_times_table(int n)
 		}
 		_putchar('\n');
 	}
-	return;
 }
