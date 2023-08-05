@@ -25,10 +25,11 @@ int is_palindrome(char *s)
 	l = 0;
 	r = (len - 1);
 	l++;
-	r++;
+	r--;
 	if (s[l] != s[r])
 	{
 		return (0);
 	}
-	return (1);
+	else
+		return (1);
 }
