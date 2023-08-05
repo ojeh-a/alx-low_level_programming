@@ -24,14 +24,11 @@ int is_palindrome(char *s)
 	}
 	l = 0;
 	r = (len - 1);
-	while (l < r)
+	l++;
+	r++;
+	if (s[l] != s[r])
 	{
-		if (s[l] != s[r])
-		{
-			return (0);
-		}
-		l++;
-		r--;
+		return (0);
 	}
 	return (1);
 }
