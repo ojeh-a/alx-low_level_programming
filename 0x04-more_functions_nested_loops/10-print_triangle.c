@@ -10,24 +10,21 @@
 
 void print_triangle(int size)
 {
-	int row, space, naira;
+	int i, j, k = size - 1, s = 1;
 
-
-	if (row <= 0)
-	{
+	if (size <= 0)
 		_putchar('\n');
-	}
-
-	for (row = 1; row <= size; row++)
+	for (i = 1; i <= size; i++)
 	{
-		for (space = size - row; space >= 1; space--)
+		for (j = size - s; j >= 1; j--)
 		{
-			_putchar(' ');
+			putchar(' ');
 		}
-		for (naira = 1; naira <= row; naira++)
+		for (k = 1; k <= i; k++)
 		{
-			_putchar('#');
+			putchar('#');
 		}
-		_putchar('\n');
+		s++;
+		putchar('\n');
 	}
 }
