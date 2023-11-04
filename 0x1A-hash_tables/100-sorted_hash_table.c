@@ -54,7 +54,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 
 	while (temp)
 	{
-		if (strcmp(temp->key, key) ==0)
+		if (strcmp(temp->key, key) == 0)
 		{
 			free(temp->value);
 			temp->value = copy;
