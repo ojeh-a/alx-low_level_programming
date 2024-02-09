@@ -25,3 +25,6 @@ Advanced
 	It works by first checking all items until an itme is found that is larger
 	than the search key. To find the exact position of the search key in
 	the list a linear search is performed on the sublist.
+- Interpolation search
+	Interpolation search is an algorithm for searching for key in an array
+	that has been ordered by numerical values assigned to the keys (key values).
