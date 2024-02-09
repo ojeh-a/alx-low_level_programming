@@ -17,3 +17,11 @@ Learning Objectives
 
 	O(log n)
 - What is the best search algorithm to use depending on your needs.
+
+
+Advanced
+- Jump search
+	Jump search or block search refers to a search algorithm for ordered lists.
+	It works by first checking all items until an itme is found that is larger
+	than the search key. To find the exact position of the search key in
+	the list a linear search is performed on the sublist.
