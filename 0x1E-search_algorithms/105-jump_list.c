@@ -34,7 +34,7 @@ listint_t * jump_list(listint_t *list, size_t size, int value)
 			node->index, jump->index);
 
 	for (; node->index < jump->index && node->n < value; node = node->next)
-		printf("value checked at index[%ld] = [%d]\n", node->index, node->n);
+		printf("Value checked at index[%ld] = [%d]\n", node->index, node->n);
 	printf("Value checked at index [%ld] = [%d]\n", node->index, node->n);
 
 	return (node->n == value ? node : NULL);
