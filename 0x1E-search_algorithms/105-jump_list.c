@@ -5,12 +5,13 @@
  * jump_list - Searches for a value in a sorted list of integers using
  * the Jump search algorithm.
  * @list: Pointer to the head of the list to search in
+ * @size: Number of nodes in list
  * @value: The value to search for.
  *
  * Return: A pointer to the first node where value is located or
  * NULL if vlaue is not present in head or if head is NULL
  */
-listint_t * jump_list(listint_t *list, size_t size, int value)
+listint_t *jump_list(listint_t *list, size_t size, int value)
 {
 	size_t step, step_size;
 	listint_t *node, *jump;
